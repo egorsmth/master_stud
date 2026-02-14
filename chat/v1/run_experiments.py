@@ -9,7 +9,7 @@ from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
 import matplotlib.pyplot as plt
 
-from svm_framework import *
+from svm_framework import ProjectionDualSVM, SVMConfig, PrimalSVM, PenaltyDualSVM
 from experiment_utils import ExperimentRunner, HyperparameterSearch
 
 

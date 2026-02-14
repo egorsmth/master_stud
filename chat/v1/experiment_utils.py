@@ -4,9 +4,15 @@ Experimental utilities for SVM comparison studies
 
 import numpy as np
 import matplotlib.pyplot as plt
-from typing import Dict, List
+from typing import Dict
 import pandas as pd
-from svm_framework import *
+from svm_framework import (
+    OptimizationResult,
+    BaseSVM,
+    ProjectionDualSVM,
+    SVMConfig,
+    PrimalSVM,
+)
 
 
 class ExperimentRunner:
